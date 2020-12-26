@@ -124,5 +124,6 @@ int Engine::Run()
 }
 Engine* Engine::Instance() {
 	static Engine* instance = new Engine();//c++11 prevents this from runnning more than once. Magic statics
+
 	return instance;
 }
